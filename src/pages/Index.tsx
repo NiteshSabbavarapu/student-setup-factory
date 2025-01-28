@@ -7,12 +7,12 @@ import { Button } from "@/components/ui/button";
 import { ArrowRight, Home, Calendar, Laptop, Bike } from "lucide-react";
 
 const categories = [
-  { title: "Furniture Kit", image: "https://images.unsplash.com/photo-1721322800607-8c38375eef04" },
-  { title: "Kitchen Appliances", image: "https://images.unsplash.com/photo-1483058712412-4245e9b90334" },
-  { title: "Electronics & Gadgets", image: "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7" },
-  { title: "Bathing & Toiletries", image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b" },
-  { title: "Bicycle & Gears", image: "https://images.unsplash.com/photo-1605810230434-7631ac76ec81" },
-  { title: "Winter Essentials", image: "https://images.unsplash.com/photo-1519389950473-47ba0277781c" },
+  { title: "Furniture Kit", image: "https://images.unsplash.com/photo-1524758631624-e2822e304c36" },
+  { title: "Kitchen Appliances", image: "https://images.unsplash.com/photo-1556911220-bff31c812dba" },
+  { title: "Electronics & Gadgets", image: "https://images.unsplash.com/photo-1498049794561-7780e7231661" },
+  { title: "Bathing & Toiletries", image: "https://images.unsplash.com/photo-1600269452121-4f2416e55c28" },
+  { title: "Bicycle & Gears", image: "https://images.unsplash.com/photo-1485965120184-e220f721d03e" },
+  { title: "Winter Essentials", image: "https://images.unsplash.com/photo-1483728642387-6c3bdd6c93e5" },
 ];
 
 const Index = () => {
@@ -40,7 +40,7 @@ const Index = () => {
         <section className="relative h-[500px] w-full overflow-hidden mb-16">
           <div className="absolute inset-0">
             <img
-              src="https://images.unsplash.com/photo-1460925895917-afdab827c52f"
+              src="https://images.unsplash.com/photo-1484101403633-562f891dc89a"
               alt="Home Essentials"
               className="h-full w-full object-cover"
             />
@@ -71,7 +71,7 @@ const Index = () => {
         <section className="relative h-[500px] w-full overflow-hidden mb-16">
           <div className="absolute inset-0">
             <img
-              src="https://images.unsplash.com/photo-1485833077593-4278bba3f11f"
+              src="https://images.unsplash.com/photo-1513519245088-0e12902e35a6"
               alt="Seasonal & Event Essentials"
               className="h-full w-full object-cover"
             />
@@ -102,7 +102,7 @@ const Index = () => {
         <section className="relative h-[500px] w-full overflow-hidden mb-16">
           <div className="absolute inset-0">
             <img
-              src="https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7"
+              src="https://images.unsplash.com/photo-1531297484001-80022131f5a1"
               alt="Tech & Academic Essentials"
               className="h-full w-full object-cover"
             />
@@ -133,7 +133,7 @@ const Index = () => {
         <section className="relative h-[500px] w-full overflow-hidden mb-16">
           <div className="absolute inset-0">
             <img
-              src="https://images.unsplash.com/photo-1605810230434-7631ac76ec81"
+              src="https://images.unsplash.com/photo-1485965120184-e220f721d03e"
               alt="Bicycle & Related Gears"
               className="h-full w-full object-cover"
             />
@@ -164,7 +164,7 @@ const Index = () => {
         <section className="relative h-[500px] w-full overflow-hidden mb-16">
           <div className="absolute inset-0">
             <img
-              src="https://images.unsplash.com/photo-1498049794561-7780e7231661"
+              src="https://images.unsplash.com/photo-1550009158-9ebf69173e03"
               alt="Electric Items Sale"
               className="h-full w-full object-cover"
             />
