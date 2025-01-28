@@ -3,6 +3,8 @@ import { SearchBar } from "@/components/SearchBar";
 import { ProductCard } from "@/components/ProductCard";
 import { CategoryCard } from "@/components/CategoryCard";
 import { JustLanded } from "@/components/JustLanded";
+import { Button } from "@/components/ui/button";
+import { ArrowRight } from "lucide-react";
 
 const categories = [
   { title: "Furniture Kit", image: "https://images.unsplash.com/photo-1721322800607-8c38375eef04" },
@@ -31,6 +33,36 @@ const Index = () => {
                 image={category.image}
               />
             ))}
+          </div>
+        </section>
+
+        {/* Electric Items Sale Banner */}
+        <section className="relative h-[500px] w-full overflow-hidden mb-16">
+          <div className="absolute inset-0">
+            <img
+              src="https://images.unsplash.com/photo-1498049794561-7780e7231661"
+              alt="Electric Items Sale"
+              className="h-full w-full object-cover"
+            />
+          </div>
+          <div className="absolute inset-0 bg-gradient-to-l from-black/60 via-black/40 to-transparent" />
+          <div className="relative h-full flex flex-col justify-center items-end px-8 md:px-16 lg:px-24">
+            <div className="text-right">
+              <h2 className="text-5xl font-bold text-white mb-4 animate-fadeIn">
+                Electric Items
+                <span className="block text-6xl text-mit-secondary mt-2">ON SALE</span>
+              </h2>
+              <p className="text-xl text-white/90 mb-8 max-w-md ml-auto animate-fadeIn" style={{ animationDelay: "0.2s" }}>
+                Up to 50% off on selected electronics and gadgets
+              </p>
+              <Button 
+                className="bg-mit-primary hover:bg-mit-accent text-white transition-all duration-300 text-lg px-8 py-6 animate-fadeIn"
+                style={{ animationDelay: "0.4s" }}
+              >
+                Grab Now
+                <ArrowRight className="ml-2" />
+              </Button>
+            </div>
           </div>
         </section>
 
