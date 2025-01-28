@@ -1,8 +1,8 @@
 import { Navbar } from "@/components/Navbar";
-import { Sidebar } from "@/components/Sidebar";
 import { SearchBar } from "@/components/SearchBar";
 import { ProductCard } from "@/components/ProductCard";
 import { CategoryCard } from "@/components/CategoryCard";
+import { JustLanded } from "@/components/JustLanded";
 
 const categories = [
   { title: "Furniture Kit", image: "https://images.unsplash.com/photo-1721322800607-8c38375eef04" },
@@ -17,18 +17,9 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-gray-50">
       <Navbar />
-      <Sidebar />
-      <main className="pt-[64px] pl-64">
-        {/* Hero Section */}
-        <div className="relative h-[400px] bg-gradient-to-r from-mit-primary to-mit-accent">
-          <div className="absolute inset-0 bg-black/20" />
-          <div className="container relative h-full flex flex-col justify-center items-center text-white">
-            <h1 className="text-5xl font-bold mb-6">Welcome to MIT Marketplace</h1>
-            <p className="text-xl mb-8">Your one-stop shop for campus essentials</p>
-            <SearchBar />
-          </div>
-        </div>
-
+      <main>
+        <JustLanded />
+        
         {/* Categories Section */}
         <section className="container py-16">
           <h2 className="text-3xl font-bold text-gray-800 mb-8">Shop by Category</h2>
