@@ -40,7 +40,7 @@ const Index = () => {
         <section className="relative h-[500px] w-full overflow-hidden mb-16">
           <div className="absolute inset-0">
             <img
-              src="/lovable-uploads/9ff5e8ce-66d5-400b-8b19-3635773645f4.png"
+              src="https://images.unsplash.com/photo-1519389950473-47ba0277781c"
               alt="MIT Founded Brands"
               className="h-full w-full object-cover"
             />
@@ -67,6 +67,7 @@ const Index = () => {
           </div>
         </section>
 
+        {/* Rest of the sections */}
         {/* Local Stores Section */}
         <section className="relative h-[500px] w-full overflow-hidden mb-16">
           <div className="absolute inset-0">
