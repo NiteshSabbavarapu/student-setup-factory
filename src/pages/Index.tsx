@@ -4,7 +4,7 @@ import { ProductCard } from "@/components/ProductCard";
 import { CategoryCard } from "@/components/CategoryCard";
 import { JustLanded } from "@/components/JustLanded";
 import { Button } from "@/components/ui/button";
-import { ArrowRight, Home, Calendar, Laptop, Bike, Store } from "lucide-react";
+import { ArrowRight, Home, Calendar, Laptop, Bike, Store, ShoppingBag } from "lucide-react";
 
 const categories = [
   { title: "Furniture Kit", image: "https://images.unsplash.com/photo-1524758631624-e2822e304c36" },
@@ -61,6 +61,42 @@ const Index = () => {
                 style={{ animationDelay: "0.4s" }}
               >
                 Explore Brands
+                <ArrowRight className="ml-2" />
+              </Button>
+            </div>
+          </div>
+        </section>
+
+        {/* Local Stores Section */}
+        <section className="relative h-[500px] w-full overflow-hidden mb-16">
+          <div className="absolute inset-0">
+            <img
+              src="https://images.unsplash.com/photo-1618160702438-9b02ab6515c9"
+              alt="Local Stores"
+              className="h-full w-full object-cover"
+            />
+          </div>
+          <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/60 to-transparent" />
+          <div className="relative h-full flex flex-col justify-center px-8 md:px-16 lg:px-24">
+            <div>
+              <div className="inline-flex items-center gap-2 bg-mit-primary/10 px-4 py-2 rounded-full mb-4 animate-fadeIn">
+                <ShoppingBag className="text-mit-primary" />
+                <span className="text-mit-primary font-semibold">Local Partners</span>
+              </div>
+              <h2 className="text-5xl font-bold text-white mb-4 animate-fadeIn" style={{ animationDelay: "0.2s" }}>
+                Tied up with local stores
+                <span className="block text-3xl text-mit-secondary mt-2">Supporting Cambridge's finest local businesses</span>
+              </h2>
+              <p className="text-white/80 max-w-xl mb-6 animate-fadeIn" style={{ animationDelay: "0.3s" }}>
+                Discover a curated selection of products from Cambridge's most beloved local stores. 
+                We've partnered with trusted neighborhood businesses to bring you quality items 
+                with the convenience of campus delivery.
+              </p>
+              <Button 
+                className="bg-mit-primary hover:bg-mit-accent text-white mt-6 animate-fadeIn"
+                style={{ animationDelay: "0.4s" }}
+              >
+                Browse Local Stores
                 <ArrowRight className="ml-2" />
               </Button>
             </div>
