@@ -71,7 +71,7 @@ const Index = () => {
         <section className="relative h-[500px] w-full overflow-hidden mb-16">
           <div className="absolute inset-0">
             <img
-              src="https://images.unsplash.com/photo-1618160702438-9b02ab6515c9"
+              src="https://images.unsplash.com/photo-1605810230434-7631ac76ec81"
               alt="Local Stores"
               className="h-full w-full object-cover"
             />
