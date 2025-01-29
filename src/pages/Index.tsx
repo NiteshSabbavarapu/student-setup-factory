@@ -76,7 +76,7 @@ const Index = () => {
               className="h-full w-full object-cover"
             />
           </div>
-          <div className="absolute inset-0 bg-gradient-to-r from-[#8B5CF6] via-[#D946EF]/90 to-[#F97316]/80" />
+          <div className="absolute inset-0 bg-gradient-to-r from-slate-900/90 via-slate-800/80 to-slate-700/70" />
           <div className="absolute inset-0 backdrop-blur-[2px]" />
           <div className="relative h-full flex flex-col justify-center px-8 md:px-16 lg:px-24">
             <div>
@@ -94,7 +94,7 @@ const Index = () => {
                 with the convenience of campus delivery.
               </p>
               <Button 
-                className="bg-white text-[#8B5CF6] hover:bg-white/90 mt-6 animate-fadeIn"
+                className="bg-white text-slate-800 hover:bg-white/90 mt-6 animate-fadeIn"
                 style={{ animationDelay: "0.4s" }}
               >
                 Browse Local Stores
